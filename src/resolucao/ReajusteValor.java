@@ -9,5 +9,6 @@ public class ReajusteValor {
         System.out.print("Digite o valor a ser reajustado: ");
         double valor = scanner.nextDouble();
         System.out.printf("O valor reajustado em %.0f porcento é: %.2f",(reajuste*100), (valor+valor*reajuste));
+        scanner.close();
     }
 }

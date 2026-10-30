@@ -25,5 +25,6 @@ public class OrdemDecrescente {
         }
 
         System.out.println("Os números em ordem decrescente: " + Arrays.toString(valores));
+        scanner.close();
     }
 }

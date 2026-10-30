@@ -9,5 +9,6 @@ public class SalarioMinimo {
         System.out.println("Digite o valor do salário (R$): ");
         double salarioInput = scanner.nextDouble();
         System.out.printf("R$ %.2f é equivalente a %.2f salários mínimo.", salarioInput, salarioInput/salarioMinimo);
+        scanner.close();
     }
 }

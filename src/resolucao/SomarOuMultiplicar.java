@@ -15,5 +15,6 @@ public class SomarOuMultiplicar {
 
         c = (a == b ? (a+b):(a*b));
         System.out.printf("O resultado é: %d",c);
+        scanner.close();
     }
 }

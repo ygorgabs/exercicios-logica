@@ -27,5 +27,7 @@ public class CalculadoraIMC {
         }else{
             System.out.println("Abaixo do peso");
         }
+
+        sc.close();
     }
 }

@@ -12,5 +12,6 @@ public class SeSomenteSe {
         System.out.print("Segundo valor booleano: ");
         boolean valor2 = scanner.nextBoolean();
         System.out.printf("Ambos os valores são iguais?%n%s",valor1 == valor2 ? "Verdadeiro" : "Falso");
+        scanner.close();
     }
 }
