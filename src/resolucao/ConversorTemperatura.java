@@ -13,5 +13,6 @@ public class ConversorTemperatura {
         fahrenheit = sc.nextDouble();
         celsius =  5*(fahrenheit-32)/9;
         System.out.printf("A temperatura é: %.0f°C",celsius);
+        sc.close();
     }
 }
